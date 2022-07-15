@@ -1,5 +1,8 @@
-fetch('https://swapi.dev/api/people/1/')
+
+const randomNum = Math.ceil(Math.random() * 83);
+
+fetch(`https://swapi.dev/api/people/${randomNum}/`)
     .then(response => response.json())
-    .then(data => {
-        console.log(data)
+    .then(character => {
+        console.log(character)
     })
