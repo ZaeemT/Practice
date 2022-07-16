@@ -1,8 +1,23 @@
 
-const randomNum = Math.ceil(Math.random() * 83);
+const name = document.getElementById("name");
+const eyecolor = document.getElementById("eyecolor");
+const birthyear = document.getElementById("birthyear");
 
-fetch(`https://swapi.dev/api/people/${randomNum}/`)
-    .then(response => response.json())
-    .then(character => {
-        console.log(character)
-    })
+const button = document.querySelector(".getRandomCharacter");
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+    name.innerHTML = '<em>Loading...</em>';
+    eyecolor.innerHTML = '<em>Loading...</em>';
+    birthyear.innerHTML = '<em>Loading...</em>';
+
+    const randomNum = Math.ceil(Math.random() * 83);
+
+    fetch(`https://swapi.dev/api/people/${randomNum}/`)
+        .then(response => response.json())
+        .then(character => {
+            name.innerHTML = character['name'];
+            eyecolor.innerHTML = character['eye_color'];
+            birthyear.innerHTML = character['birth_year'];
+        })  
+})
+
