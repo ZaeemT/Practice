@@ -1,3 +1,18 @@
-/*.d-flex {
-/*    margin-rights : auto;
-/*}
+.navbar {
+    /*    opacity: .95;   */
+    background-color: white;
+}
+
+.bg1 {
+    background-color: cadetblue;
+}
+
+.text-white-50 {
+    font-weight: 400;
+}
+
+.yo {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+}
