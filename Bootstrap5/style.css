@@ -11,6 +11,18 @@
     font-weight: 400;
 }
 
+.icon-sahpe {
+    color: white;
+    opacity: .95;
+    background-color: cadetblue;
+}
+
+.icon-lg {
+    height: 3rem;
+    line-height: 3rem;
+    width: 3rem;
+}
+
 .yo {
     background-color: blue;
     color: aliceblue;
