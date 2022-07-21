@@ -23,8 +23,13 @@
     width: 3rem;
 }
 
+.card {
+    margin: 0 .5em; 
+    margin-bottom: 2rem;
+}
+
 .yo {
-    background-color: blue;
-    color: aliceblue;
-    padding: 8px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
 }
