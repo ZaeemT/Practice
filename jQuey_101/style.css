@@ -1,0 +1,10 @@
+
+body {
+    font-size: x-large;
+    color: brown;
+}
+
+#name, #eyecolor, #birthyear {
+    font-size: large;
+    color: black;
+}
