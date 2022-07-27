@@ -8,3 +8,9 @@ body {
     font-size: large;
     color: black;
 }
+
+#picture {
+    display: block;
+    height: auto;
+    width: 25%;
+}
