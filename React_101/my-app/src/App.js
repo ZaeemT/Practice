@@ -56,12 +56,12 @@ class StarWars extends React.Component{
           this.state.loadedCharacter &&
             <div>
               <h1>{this.state.name}</h1>
-              <p>{this.state.height} cm</p>
+              <p>{this.state.height} m</p>
               <p><a href={this.state.homeWorld}>Homeworld </a></p>
               {/* <ul>
                 {movies}
               </ul> */}
-              <img src={this.state.picture} alt="..."></img>
+              <img src={this.state.picture} alt="..." className='pic'></img>
             </div>
         }
         <button

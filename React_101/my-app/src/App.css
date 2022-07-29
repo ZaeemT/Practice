@@ -44,3 +44,10 @@
   color: azure;
   background-color: #000;
 }
+
+.pic {
+  display: block;
+  height: auto;
+  width: 25%;
+  padding: 20px;
+}
