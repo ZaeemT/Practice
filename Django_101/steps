@@ -14,3 +14,7 @@ python manage.py createsuperuser
     Password: zaeem
 
 python manage.py startapp feed
+
+--> After making a model
+python manage.py makemigrations
+python manage.py migrate
