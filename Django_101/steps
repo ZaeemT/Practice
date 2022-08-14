@@ -1,0 +1,16 @@
+pip install django
+
+django-admin startproject mysite .
+
+python manage.py runserver
+
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py createsuperuser
+    Username: zaeem
+    Email: zaeemtauqir@hotmail.com
+    Password: zaeem
+
+python manage.py startapp feed

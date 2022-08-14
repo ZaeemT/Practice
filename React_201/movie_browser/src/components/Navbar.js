@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = ({ searchText, setSearchText }) => {
 
+  const navigate = useNavigate();
   const updateSearchText = (e) => {
+    navigate('/search');
     setSearchText(e.target.value);
   } 
 
